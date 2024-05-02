@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+    <title>ExoTech | Ecommerce Website</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+        <img src="exologo.png" alt="Company Logo">
+        </div>
+        <h1>ExoTech</h1>
+        </header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Login</a></li>
+</ul>
+</nav>
+    
+<main>
+    <img src="cover-img.png" alt="Cover">
+    <hr>
+    <section>
+    <h2>Welcome to Our Page</h2>
+    <p>Explore our wide range of computer accessories to enhance your computing experience.</p>
+    </section>
+    <section>
+    <h2>Who Are We</h2>
+    <p>We are a leading provider of high-quality computer accessories, offering a variety of products to meet your needs.</p>
+    </section>
+    </main>
+    <hr>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="container my-5">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <h2 class="text-center">Contact Us</h2>
+            </div>
+            <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+                <!-- Assuming you might want a form for the users to fill out -->
+                <form>
+                    <div class="mb-3">
+                        <label for="contactName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactMessage" class="form-label">Message</label>
+                        <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   <!--- Footer -->
+   <footer>
+    <p>Hotline: 90015</p>
+    <p>Email: info@exotech.com</p>
+    <p>Address: Technology Mall, Cairo, Egypt</p>
+    <div class="social-icons">
+    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+    <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+    </div>
+    </footer>
+
+    <hr>
+
+    <body>
+        <header>
+            <div class="logo">
+            <img src="exologo.png" alt="Company Logo">
+            </div>
+            <h1>ExoTech</h1>
+            </header>
+    <nav>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Login</a></li>
+    </ul>
+    </nav>
+        
+        <!--- Featured Products -->
+        <div class="container my-5">
+            <h2 class="text-center mb-4">Intel Processors</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="intel-core-i5-7500-png.png" class="card-img-top" alt="Product">
+                        <div class="card-body">
+                            <h5 class="card-title">Intel Core i3-7500</h5>
+                            <p class="card-text">$29.00</p>
+                            <form action="cart.html" method="GET">
+                                <input type="hidden" name="product" value="Virtual Reality Glasses">
+                                <input type="hidden" name="price" value="299.00">
+                                <input type="hidden" name="quantity" value="1">
+                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="intel-core-i5-7200-removebg-preview.png" class="card-img-top" alt="Product">
+                        <div class="card-body">
+                            <h5 class="card-title">Intel Core i5-6200</h5>
+                            <p class="card-text">$49.00</p>
+                            <form action="cart.html" method="GET">
+                                <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                <input type="hidden" name="price" value="149.00">
+                                <input type="hidden" name="quantity" value="1">
+                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="intel-core-i9-png.png" class="card-img-top" alt="Product">
+                        <div class="card-body">
+                            <h5 class="card-title">Intel Core i7-4100</h5>
+                            <p class="card-text">$78.00</p>
+                            <form action="cart.html" method="GET">
+                                <input type="hidden" name="product" value="3D Printing Pen">
+                                <input type="hidden" name="price" value="$45.00">
+                                <input type="hidden" name="quantity" value="1">
+                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="intel-core-i9-5600.png" class="card-img-top" alt="Product">
+                        <div class="card-body">
+                            <h5 class="card-title">Intel Core i9-8600</h5>
+                            <p class="card-text">$135.00</p>
+                            <form action="cart.html" method="GET">
+                                <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                <input type="hidden" name="price" value="$199.00">
+                                <input type="hidden" name="quantity" value="1">
+                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    
+        <!--- New Product -->
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <img src="AM4 Intel AMD Ryzen 3.png" class="img-fluid" alt="New Product">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <p>Our Newest Product Offer</p>
+                        <h1> AM4 Intel AMD Ryzen 3 </h1>
+                        <small>Intel® AMD processors are highly recommended for live streaming and content creation on popular platforms like Twitch and YouTube.</small>
+                        <br>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Smart Ring">
+                            <input type="hidden" name="price" value="199.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    
+        <!-- Contact Us Section -->
+        <section id="contact" class="container my-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <h2 class="text-center">Contact Us</h2>
+                </div>
+                <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+                    <!-- Assuming you might want a form for the users to fill out -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="contactName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+       <!--- Footer -->
+       <footer>
+        <p>Hotline: 90015</p>
+        <p>Email: info@exotech.com</p>
+        <p>Address: Technology Mall, Cairo, Egypt</p>
+        <div class="social-icons">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+        </footer>
+
+     <br>
+
+        <body>
+            <header>
+                <div class="logo">
+                <img src="exologo.png" alt="Company Logo">
+                </div>
+                <h1>ExoTech</h1>
+                </header>
+        <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
+        </ul>
+        </nav>
+            
+            <!--- Featured Products -->
+            <div class="container my-5">
+                <h2 class="text-center mb-4">Gaming Monitors</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="2nd-v1.png" class="card-img-top" alt="Product">
+                            <div class="card-body">
+                                <h5 class="card-title">ROG Swift 4K HDR Gaming Monitor PG27UQ</h5>
+                                <p class="card-text">$299.00</p>
+                                <form action="cart.html" method="GET">
+                                    <input type="hidden" name="product" value="Virtual Reality Glasses">
+                                    <input type="hidden" name="price" value="299.00">
+                                    <input type="hidden" name="quantity" value="1">
+                                    <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="2nd-v2.png" class="card-img-top" alt="Product">
+                            <div class="card-body">
+                                <h5 class="card-title">ViewSonic XG2560 25" 16:9 LCD Gaming Monitor Nvidia G-Sync</h5>
+                                <p class="card-text">$149.00</p>
+                                <form action="cart.html" method="GET">
+                                    <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                    <input type="hidden" name="price" value="149.00">
+                                    <input type="hidden" name="quantity" value="1">
+                                    <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="2nd-v3.png" class="card-img-top" alt="Product">
+                            <div class="card-body">
+                                <h5 class="card-title">MSI Monitor DisplayPort Refresh rate 1080p LED-backlit LCD</h5>
+                                <p class="card-text">$45.00</p>
+                                <form action="cart.html" method="GET">
+                                    <input type="hidden" name="product" value="3D Printing Pen">
+                                    <input type="hidden" name="price" value="$45.00">
+                                    <input type="hidden" name="quantity" value="1">
+                                    <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="2nd-v4.png" class="card-img-top" alt="Product">
+                            <div class="card-body">
+                                <h5 class="card-title">Samsung C27FG73 27' Curved Gaming Monitor LED-backlit</h5>
+                                <p class="card-text">$199.00</p>
+                                <form action="cart.html" method="GET">
+                                    <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                    <input type="hidden" name="price" value="$199.00">
+                                    <input type="hidden" name="quantity" value="1">
+                                    <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        
+            <!--- New Product -->
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <img src="2nd-vlast.png" class="img-fluid" alt="New Product">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div>
+                            <p>Our Newest Product Offer</p>
+                            <h1>ACER Predator Z35P Predator X34 Curved Gaming Monitor</h1>
+                            <small>Upgrade your gaming experience with our cutting-edge gaming monitor! Immerse yourself in stunning visuals and smooth gameplay. Purchase now and elevate your gaming setup to the next level!</small>
+                            <br>
+                            <form action="cart.html" method="GET">
+                                <input type="hidden" name="product" value="Smart Ring">
+                                <input type="hidden" name="price" value="199.00">
+                                <input type="hidden" name="quantity" value="1">
+                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        
+            <!-- Contact Us Section -->
+            <section id="contact" class="container my-5">
+                <div class="row">
+                    <div class="col-12 mb-4">
+                        <h2 class="text-center">Contact Us</h2>
+                    </div>
+                    <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+                        <!-- Assuming you might want a form for the users to fill out -->
+                        <form>
+                            <div class="mb-3">
+                                <label for="contactName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactMessage" class="form-label">Message</label>
+                                <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        
+           <!--- Footer -->
+           <footer>
+            <p>Hotline: 90015</p>
+            <p>Email: info@exotech.com</p>
+            <p>Address: Technology Mall, Cairo, Egypt</p>
+            <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            </footer>
+            <br>
+            <body>
+                <header>
+                    <div class="logo">
+                    <img src="exologo.png" alt="Company Logo">
+                    </div>
+                    <h1>ExoTech</h1>
+                    </header>
+            <nav>
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+            </ul>
+            </nav>
+                
+                <!--- Featured Products -->
+                <div class="container my-5">
+                    <h2 class="text-center mb-4">Gaming Keyboards</h2>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="3rd-v1.png" class="card-img-top" alt="Product">
+                                <div class="card-body">
+                                    <h5 class="card-title">ASUS RGB Z-255</h5>
+                                    <p class="card-text">$15.00</p>
+                                    <form action="cart.html" method="GET">
+                                        <input type="hidden" name="product" value="Virtual Reality Glasses">
+                                        <input type="hidden" name="price" value="299.00">
+                                        <input type="hidden" name="quantity" value="1">
+                                        <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="3rd-v2.png" class="card-img-top" alt="Product">
+                                <div class="card-body">
+                                    <h5 class="card-title">AUORA XV-White Master</h5>
+                                    <p class="card-text">$28.00</p>
+                                    <form action="cart.html" method="GET">
+                                        <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                        <input type="hidden" name="price" value="149.00">
+                                        <input type="hidden" name="quantity" value="1">
+                                        <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="3rd-v3-removebg-preview.png" class="card-img-top" alt="Product">
+                                <div class="card-body">
+                                    <h5 class="card-title">Logitech Version-9Ko RGB</h5>
+                                    <p class="card-text">$45.00</p>
+                                    <form action="cart.html" method="GET">
+                                        <input type="hidden" name="product" value="3D Printing Pen">
+                                        <input type="hidden" name="price" value="$45.00">
+                                        <input type="hidden" name="quantity" value="1">
+                                        <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="3rd">
+                                <img src="3rd-v5-removebg-preview.png" class="card-img-top" alt="Product">
+                                <div class="card-body">
+                                    <h5 class="card-title">Razer RGB MN500 </h5>
+                                    <p class="card-text">$89.00</p>
+                                    <form action="cart.html" method="GET">
+                                        <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                        <input type="hidden" name="price" value="$199.00">
+                                        <input type="hidden" name="quantity" value="1">
+                                        <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            
+                <!--- New Product -->
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <img src="3rd-v4.png" class="img-fluid" alt="New Product">
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center">
+                            <div>
+                                <p>Our Newest Product Offer</p>
+                                <h1>ASUS CERBERUS KO-Series Edition</h1>
+                                <small>Enhance your gaming performance with our latest gaming keyboard! Dominate the competition with precision and speed. Upgrade your setup today and level up your gaming experience!</small>
+                                <br>
+                                <form action="cart.html" method="GET">
+                                    <input type="hidden" name="product" value="Smart Ring">
+                                    <input type="hidden" name="price" value="199.00">
+                                    <input type="hidden" name="quantity" value="1">
+                                    <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            
+                <!-- Contact Us Section -->
+                <section id="contact" class="container my-5">
+                    <div class="row">
+                        <div class="col-12 mb-4">
+                            <h2 class="text-center">Contact Us</h2>
+                        </div>
+                        <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+                            <!-- Assuming you might want a form for the users to fill out -->
+                            <form>
+                                <div class="mb-3">
+                                    <label for="contactName" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="contactEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="contactMessage" class="form-label">Message</label>
+                                    <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-warning">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            
+               <!--- Footer -->
+               <footer>
+                <p>Hotline: 90015</p>
+                <p>Email: info@exotech.com</p>
+                <p>Address: Technology Mall, Cairo, Egypt</p>
+                <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                </div>
+                </footer>
+                <br>
+                <body>
+                    <header>
+                        <div class="logo">
+                        <img src="exologo.png" alt="Company Logo">
+                        </div>
+                        <h1>ExoTech</h1>
+                        </header>
+                <nav>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+                </ul>
+                </nav>
+                    
+                    <!--- Featured Products -->
+                    <div class="container my-5">
+                        <h2 class="text-center mb-4">Gaming Mouse</h2>
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="4-v1.png" class="card-img-top" alt="Product">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Redragon KO500 RGB</h5>
+                                        <p class="card-text">$17.00</p>
+                                        <form action="cart.html" method="GET">
+                                            <input type="hidden" name="product" value="Virtual Reality Glasses">
+                                            <input type="hidden" name="price" value="299.00">
+                                            <input type="hidden" name="quantity" value="1">
+                                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="4-v2.png" class="card-img-top" alt="Product">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Razer Blade-X9</h5>
+                                        <p class="card-text">$25.00</p>
+                                        <form action="cart.html" method="GET">
+                                            <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                            <input type="hidden" name="price" value="149.00">
+                                            <input type="hidden" name="quantity" value="1">
+                                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="4-v3.png" class="card-img-top" alt="Product">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Logitech G202 Wireless</h5>
+                                        <p class="card-text">$45.00</p>
+                                        <form action="cart.html" method="GET">
+                                            <input type="hidden" name="product" value="3D Printing Pen">
+                                            <input type="hidden" name="price" value="$45.00">
+                                            <input type="hidden" name="quantity" value="1">
+                                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="4-v4.png" class="card-img-top" alt="Product">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Xfire Optical Blue</h5>
+                                        <p class="card-text">$43.00</p>
+                                        <form action="cart.html" method="GET">
+                                            <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                            <input type="hidden" name="price" value="$199.00">
+                                            <input type="hidden" name="quantity" value="1">
+                                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                
+                    <!--- New Product -->
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <img src="4-vlast.png" class="img-fluid" alt="New Product" width="200" height="200">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <div>
+                                    <p>Our Newest Product Offer</p>
+                                    <h1>Logitech G500 RGB </h1>
+                                    <small>Take your gaming to the next level with our advanced gaming mouse! Achieve precision and accuracy like never before. Elevate your gameplay and conquer your opponents with ease. Upgrade to our new gaming mouse today!</small>
+                                    <br>
+                                    <form action="cart.html" method="GET">
+                                        <input type="hidden" name="product" value="Smart Ring">
+                                        <input type="hidden" name="price" value="199.00">
+                                        <input type="hidden" name="quantity" value="1">
+                                        <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                
+                    <!-- Contact Us Section -->
+                    <section id="contact" class="container my-5">
+                        <div class="row">
+                            <div class="col-12 mb-4">
+                                <h2 class="text-center">Contact Us</h2>
+                            </div>
+                            <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+                                <!-- Assuming you might want a form for the users to fill out -->
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="contactName" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="contactEmail" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="contactMessage" class="form-label">Message</label>
+                                        <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                
+                   <!--- Footer -->
+                   <footer>
+                    <p>Hotline: 90015</p>
+                    <p>Email: info@exotech.com</p>
+                    <p>Address: Technology Mall, Cairo, Egypt</p>
+                    <div class="social-icons">
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                    </div>
+                    </footer>
+                    <br>
+                    <body>
+                        <header>
+                            <div class="logo">
+                            <img src="exologo.png" alt="Company Logo">
+                            </div>
+                            <h1>ExoTech</h1>
+                            </header>
+                    <nav>
+                    <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                    </ul>
+                    </nav>
+                        
+                        <!--- Featured Products -->
+                        <div class="container my-5">
+                            <h2 class="text-center mb-4">Gaming Headset</h2>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="5-v1.png" class="card-img-top" alt="Product">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Logitech Z300 All Blue</h5>
+                                            <p class="card-text">$68.00</p>
+                                            <form action="cart.html" method="GET">
+                                                <input type="hidden" name="product" value="Virtual Reality Glasses">
+                                                <input type="hidden" name="price" value="299.00">
+                                                <input type="hidden" name="quantity" value="1">
+                                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="5-v2.png" class="card-img-top" alt="Product">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Redragon KOTON V5</h5>
+                                            <p class="card-text">$29.00</p>
+                                            <form action="cart.html" method="GET">
+                                                <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                                <input type="hidden" name="price" value="149.00">
+                                                <input type="hidden" name="quantity" value="1">
+                                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="5-v3.png" class="card-img-top" alt="Product">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Logitech Z211 Black</h5>
+                                            <p class="card-text">$45.00</p>
+                                            <form action="cart.html" method="GET">
+                                                <input type="hidden" name="product" value="3D Printing Pen">
+                                                <input type="hidden" name="price" value="$45.00">
+                                                <input type="hidden" name="quantity" value="1">
+                                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="5-v4-corsair.png" class="card-img-top" alt="Product">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Corsair Comfort</h5>
+                                            <p class="card-text">$81.00</p>
+                                            <form action="cart.html" method="GET">
+                                                <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                                <input type="hidden" name="price" value="$199.00">
+                                                <input type="hidden" name="quantity" value="1">
+                                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    
+                        <!--- New Product -->
+                        <div class="container">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <img src="5-vlast-razer.png" class="img-fluid" alt="New Product">
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <div>
+                                        <p>Our Newest Product Offer</p>
+                                        <h1>Razer BladeX Wireless Gaming Headset</h1>
+                                        <small>Immerse yourself in the game with our top-of-the-line gaming headset! Experience crystal-clear audio and communication for the ultimate gaming experience. Elevate your gameplay and communication with our new gaming headset. Upgrade now and hear the difference!</small>
+                                        <br>
+                                        <form action="cart.html" method="GET">
+                                            <input type="hidden" name="product" value="Smart Ring">
+                                            <input type="hidden" name="price" value="199.00">
+                                            <input type="hidden" name="quantity" value="1">
+                                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    
+                        <!-- Contact Us Section -->
+                        <section id="contact" class="container my-5">
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <h2 class="text-center">Contact Us</h2>
+                                </div>
+                                <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+                                    <!-- Assuming you might want a form for the users to fill out -->
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="contactName" class="form-label">Name</label>
+                                            <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="contactEmail" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="contactMessage" class="form-label">Message</label>
+                                            <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-warning">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                    
+                       <!--- Footer -->
+                       <footer>
+                        <p>Hotline: 90015</p>
+                        <p>Email: info@exotech.com</p>
+                        <p>Address: Technology Mall, Cairo, Egypt</p>
+                        <div class="social-icons">
+                        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                        </div>
+                        </footer>
+                        <br>
+                        <body>
+                            <header>
+                                <div class="logo">
+                                <img src="exologo.png" alt="Company Logo">
+                                </div>
+                                <h1>ExoTech</h1>
+                                </header>
+                        <nav>
+                        <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Login</a></li>
+                        </ul>
+                        </nav>
+                            
+                            <!--- Featured Products -->
+                            <div class="container my-5">
+                                <h2 class="text-center mb-4">Gaming Computer Cases</h2>
+                                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="6-v1-Avant Tower.png" class="card-img-top" alt="Product">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Avant Tower</h5>
+                                                <p class="card-text">$105.00</p>
+                                                <form action="cart.html" method="GET">
+                                                    <input type="hidden" name="product" value="Virtual Reality Glasses">
+                                                    <input type="hidden" name="price" value="299.00">
+                                                    <input type="hidden" name="quantity" value="1">
+                                                    <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="6-v2-CoolerMaster.png" class="card-img-top" alt="Product">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Cooler Master VBEE</h5>
+                                                <p class="card-text">$149.00</p>
+                                                <form action="cart.html" method="GET">
+                                                    <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                                    <input type="hidden" name="price" value="149.00">
+                                                    <input type="hidden" name="quantity" value="1">
+                                                    <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="6-v3-ATX_C.png" class="card-img-top" alt="Product">
+                                            <div class="card-body">
+                                                <h5 class="card-title">ATX Compera</h5>
+                                                <p class="card-text">$104.00</p>
+                                                <form action="cart.html" method="GET">
+                                                    <input type="hidden" name="product" value="3D Printing Pen">
+                                                    <input type="hidden" name="price" value="$45.00">
+                                                    <input type="hidden" name="quantity" value="1">
+                                                    <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="6-v4-Signa_Ultimate.png" class="card-img-top" alt="Product">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Signa Ultimate</h5>
+                                                <p class="card-text">$199.00</p>
+                                                <form action="cart.html" method="GET">
+                                                    <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                                                    <input type="hidden" name="price" value="$199.00">
+                                                    <input type="hidden" name="quantity" value="1">
+                                                    <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        
+                            <!--- New Product -->
+                            <div class="container">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <img src="6-vlast.png" class="img-fluid" alt="New Product">
+                                    </div>
+                                    <div class="col-md-6 d-flex align-items-center">
+                                        <div>
+                                            <p>Our Newest Product Offer</p>
+                                            <h1>Redragon GC-618</h1>
+                                            <small>Elevate your gaming rig with our sleek and stylish gaming computer case! Experience superior airflow, customizable RGB lighting, and ample space for your components. Upgrade your setup and showcase your gaming prowess in style. Get your new gaming computer case today!</small>
+                                            <br>
+                                            <form action="cart.html" method="GET">
+                                                <input type="hidden" name="product" value="Smart Ring">
+                                                <input type="hidden" name="price" value="199.00">
+                                                <input type="hidden" name="quantity" value="1">
+                                                <input type="submit" class="btn btn-warning" value="Add to Cart">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        
+                            <!-- Contact Us Section -->
+                            <section id="contact" class="container my-5">
+                                <div class="row">
+                                    <div class="col-12 mb-4">
+                                        <h2 class="text-center">Contact Us</h2>
+                                    </div>
+                                    <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+                                        <!-- Assuming you might want a form for the users to fill out -->
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="contactName" class="form-label">Name</label>
+                                                <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="contactEmail" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="contactMessage" class="form-label">Message</label>
+                                                <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-warning">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+                        
+                           <!--- Footer -->
+                           <footer>
+                            <p>Hotline: 90015</p>
+                            <p>Email: info@exotech.com</p>
+                            <p>Address: Technology Mall, Cairo, Egypt</p>
+                            <div class="social-icons">
+                            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                            </div>
+                            </footer>
+</body>
+</html>
